@@ -1,74 +1,83 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NullFrameStudio / Orderly</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <title>OrderlySoftware®</title>
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">OrderlySoftWare®</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item"><a class="nav-link" href="#about">Hakkında</a></li>
-      <li class="nav-item"><a class="nav-link" href="#projects">Projeler</a></li>
-      <li class="nav-item"><a class="nav-link" href="#contact">İletişim</a></li>
-    </ul>
-  </div>
-</nav>
-
-<!-- Hero -->
-<header class="jumbotron text-center bg-info text-white mb-0">
-  <h1 class="display-4">OrderlySoftWare®</h1>
-  <p class="lead">NullFrameStudio® tarafından geliştirilen modern yazılım çözümleri.</p>
-  <a href="#projects" class="btn btn-light btn-lg">Projeleri Gör</a>
-</header>
-
-<!-- About -->
-<section id="about" class="container py-5">
-  <h2>Hakkında</h2>
-  <p>OrderlySoftWare® ve NullFrameStudio® bağımsız bir stüdyodur. Aktif olarak tek geliştirici tarafından yürütülmektedir.</p>
-  <div class="alert alert-warning">Geliştirilme aşamasındadır!</div>
-</section>
-
-<!-- Projects -->
-<section id="projects" class="container py-5">
-  <h2>Projeler</h2>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card shadow-sm">
-        <img src="Oderly_Icon.png" alt="Orderly_Icon.png" class="card-img-top" ><br>
-        <div class="card-body">
-          <h5 class="card-title">Orderly Dosya Gezgini</h5>
-          <p class="card-text">Windows ve Linux için modern bir dosya yöneticisi. Basit arayüz, güçlü özellikler.</p>
-          <div class="alert alert-danger">Geliştirilme aşamasındadır!</div>
-          <a href="https://www.mediafire.com/file/ug5ppo3fa62n512/Orderly_1.3_Fix.rar/file" class="btn btn-primary btn-block">İndir</a>
-          <a href="https://www.reddit.com/user/NullFrameStudio/submitted/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" class="btn btn-primary btn-block">Görseller</a>
-        </div>
-      </div>
+  <!-- Header -->
+  <header>
+    <div class="brand">
+      <img src="logo.png" alt="OrderlySoftware® Logo">
+      <span>OrderlySoftware®</span>
     </div>
-    <!-- Diğer projeler için benzer card yapıları -->
-  </div>
-</section>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="imagesPage.html">Images</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<!-- Contact -->
-<section id="contact" class="container py-5">
-  <h2>İletişim</h2>
-  <ul class="list-unstyled">
-    <li><strong>Stüdyo Sahibi:</strong> Efe Koç</li>
-    <li><strong>Email:</strong> nullframesstudio@gmail.com</li>
-    <li><strong>YouTube:</strong> <a href="https://www.youtube.com/@FuzuliX" target="_blank">Fuzuli X</a></li>
-  </ul>
-  <p class="text-muted">© 2025 NullFrameStudio®. Tüm Hakları Saklıdır. OrderlySoftWare®, NullFrameStudio®'nun ticari markasıdır.</p>
-</section>
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section id="hero">
+      <h1>Modern File Management</h1>
+      <p>Software solutions developed by NullFrameStudio®</p>
+      <a class="button" href="#projects">Projects</a>
+    </section>
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- About -->
+    <section id="about">
+      <article class="project-card">
+        <h2>About</h2>
+        <p>
+          Orderly Software® is an independent software brand developed by NullFrameStudio®. 
+          Our first product, Orderly File Explorer, offers modern design and high performance. 
+          However, Orderly Software is not just a file manager; our goal is to create different 
+          tools and solutions that simplify the computer experience for users.
+        </p>
+      </article>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <article class="project-card">
+        <h3>Orderly File Explorer</h3>
+        <p>Modern design, high performance.</p>
+        <a class="button" href="https://download942.mediafire.com/cj3dq3nkyxxgV8aqqrqiizN5Z0kPWA_oJloeBBIE6ESKTndhy9z_nb7nBXph-5UJjuddn9w5egk9p1Mpi2RLCsGh8edRpgUrFYvSrSIRVv2-2pbq5tNoKA5MXXnMFhFABh3m3F0GyifbgQWQaH_BTE9JeoBM49KJcNlDoDhqjA/ug5ppo3fa62n512/Orderly+1.3+Fix.rar"
+        >Download</a>
+        <a class="button" href="imagesPage.html">Images</a>
+      </article>
+      <aside class="project-card placeholder">
+        <h3>Coming Soon...</h3>
+        <p>Stay tuned for new projects.</p>
+      </aside>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <address>
+        <p>Email: <a href="mailto:nullframesstudio@gmail.com">nullframesstudio@gmail.com</a></p>
+        <p>Fandom: <a href="https://nullframestudio.fandom.com/tr/wiki/Main_Page">Wiki Page</a></p>
+        <p>YouTube: <a href="https://www.youtube.com/@FuzuliX">FuzuliX</a></p>
+        <p>YouTube: <a href="https://www.youtube.com/@Null_Frame_Studio">Null Frame Studio</a></p>
+        <p>GitHub: <a href="https://github.com/orderlysoftware">OrderlySoftware</a></p>
+        <p>X.Com: <a href="https://x.com/NullFrameStudio">NullFrameStudio</a></p>
+        <p>itch.io: <a href="https://null-frame.itch.io">Null Frame Studio</a></p>
+      </address>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 NullFrameStudio®</p>
+  </footer>
 </body>
 </html>
